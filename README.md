@@ -8,7 +8,7 @@ elements to include:
 - nav bar and footer with links displayed on outer left and right sides
 - search bar with hover effect + icon
 - links (dead links used)
--images + icons
+- images + icons
 
 what i learned:
 - html + css basics
@@ -19,5 +19,5 @@ what i learned:
 
 what i would do next time to improve:
 - match colours and alignment to original more exactly
-- use <img> for google apps logo instead of icon 
+- use image for google apps logo instead of icon 
 

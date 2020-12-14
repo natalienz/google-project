@@ -95,8 +95,8 @@ input:hover {
 
 .search-icon {
   position: absolute; 
-  bottom: 405px; 
-  left:450px; 
+  bottom: 415px; 
+  left: 450px; 
   width: 14px; 
   height: 14px;
   opacity: 50%;
@@ -108,8 +108,7 @@ div#search-buttons {
   justify-content: center;
   height: 50px;
   padding-top: 30px;
-  padding-bottom: 280px;
-  width: 100%;
+  padding-bottom: 290px;
 }
 
 button {
@@ -134,9 +133,9 @@ background-color: rgb(243, 243, 243);
 /* footer section */
 footer {
   background-color: rgb(236, 236, 236);
-  height: 40px;
+  height: 50px;
   width: auto;
   margin: auto;
   justify-content: space-between;
-  padding-right: 10px;
+  padding-right: 20px;
 }

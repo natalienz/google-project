@@ -14,7 +14,7 @@ body {
 /* nav bar */
 nav {
   overflow: hidden;
-  padding: 15px 15px 0px 20px;
+  padding: 15px 20px 0px 15px;
   height: 50px;
   list-style: none;
   margin: 0;
@@ -40,6 +40,11 @@ button.sign-in {
 /* list styles */
 ul {
   list-style-type: none;
+}
+
+li {
+  display: inline;
+  padding: 0 10px 0 10px;
 }
 
 li a {
@@ -69,6 +74,11 @@ img {
 }
 
 /* search bar */
+div#google-search {
+display: flex;
+justify-content: center;
+}
+
 input {
   width: 535px;
   height: 42px;
@@ -84,9 +94,9 @@ input:hover {
 }
 
 .search-icon {
-  position:absolute; 
-  bottom: 0px; 
-  left: 450px; 
+  position: absolute; 
+  bottom: 405px; 
+  left:450px; 
   width: 14px; 
   height: 14px;
   opacity: 50%;
@@ -128,4 +138,5 @@ footer {
   width: auto;
   margin: auto;
   justify-content: space-between;
+  padding-right: 10px;
 }

@@ -23,6 +23,7 @@ nav {
 .align-left {
   float: left;
 }
+
 .align-right {
   float: right;
 }
@@ -30,6 +31,16 @@ nav {
 button.sign-in {
   border: 5px grey;
   background-color: #4285F4;
+  height: 30px;
+  width: 75px;
+  color: white;
+  border-radius: 3px;
+  font-size: 10pt;
+}
+
+button.sign-in:hover {
+  border: 5px grey;
+  background-color: #508ef1;
   height: 30px;
   width: 75px;
   color: white;
@@ -108,7 +119,7 @@ div#search-buttons {
   justify-content: center;
   height: 50px;
   padding-top: 30px;
-  padding-bottom: 290px;
+  padding-bottom: 285px;
 }
 
 button {
@@ -138,4 +149,5 @@ footer {
   margin: auto;
   justify-content: space-between;
   padding-right: 20px;
+  padding-top: 5px;
 }
